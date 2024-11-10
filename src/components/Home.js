@@ -95,7 +95,7 @@ export default function Home() {
                             </div>
 
                             {/* <marquee className="md:hidden block py-5"> */}
-                                <div className='flex items-center justify-center gap-8 py-5'>
+                                <div className='flex md:hidden items-center justify-center gap-8 py-5'>
                                     <img src={b_1} alt='' className='w-28 filter grayscale'></img>
                                     <img src={b_2} alt='' className='w-8 filter grayscale'></img>
                                     {/* <img src={b_3} alt='' className='w-28'></img>
