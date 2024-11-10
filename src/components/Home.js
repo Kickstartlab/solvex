@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import Difference from './Difference'
-import b_1 from '../assets/b_1.png';
+import b_1 from '../assets/b_1.svg';
 import b_2 from '../assets/b_2.png';
 import b_3 from '../assets/b_3.png';
 import b_4 from '../assets/b_4.png';
@@ -88,20 +88,20 @@ export default function Home() {
                             </p>
 
                             <div className='md:flex hidden flex-wrap items-center justify-center md:gap-12 gap-6 py-5 space-y-3'>
-                                <img src={b_1} alt='' className=''></img>
-                                <img src={b_2} alt=''></img>
-                                <img src={b_3} alt=''></img>
-                                <img src={b_4} alt=''></img>
+                                <img src={b_1} alt='' className='w-40 filter grayscale'></img>
+                                <img src={b_2} alt='' className='w-12 filter grayscale'></img>
+                                {/* <img src={b_3} alt=''></img>
+                                <img src={b_4} alt=''></img> */}
                             </div>
 
-                            <marquee className="md:hidden block py-5">
-                                <div className='flex items-center justify-center gap-6 py-5'>
-                                    <img src={b_1} alt='' className='w-28'></img>
-                                    <img src={b_2} alt='' className='w-28'></img>
-                                    <img src={b_3} alt='' className='w-28'></img>
-                                    <img src={b_4} alt='' className='w-28'></img>
+                            {/* <marquee className="md:hidden block py-5"> */}
+                                <div className='flex items-center justify-center gap-8 py-5'>
+                                    <img src={b_1} alt='' className='w-28 filter grayscale'></img>
+                                    <img src={b_2} alt='' className='w-8 filter grayscale'></img>
+                                    {/* <img src={b_3} alt='' className='w-28'></img>
+                                    <img src={b_4} alt='' className='w-28'></img> */}
                                 </div>
-                            </marquee>
+                            {/* </marquee> */}
 
                             <div className='border-b line-gradient'>
 
@@ -298,7 +298,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <img src={video} alt='' className='lg:absolute lg:-mt-96 animate-float lg:ml-6 mt-6'></img>
+                <img src={video} alt='' className='lg:absolute lg:-mt-96 animate-float lg:ml-6 mt-6 lex mx-auto'></img>
 
             </div>
 

@@ -53,7 +53,7 @@ export default function SimpleSlider() {
                         </div>
 
                         <div className="">
-                            <img src={diff_2} alt="differnce" className="animate-float lg:w-full w-44 flex mx-auto"></img>
+                            <img src={diff_2} alt="differnce" className="animate-float lg:w-9/12 w-44 flex mx-auto"></img>
                         </div>
                     </div>
                 </div>
