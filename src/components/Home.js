@@ -5,7 +5,6 @@ import Difference from './Difference'
 import b_1 from '../assets/b_1.svg';
 import b_2 from '../assets/b_2.png';
 import b_3 from '../assets/b_3.png';
-import b_4 from '../assets/b_4.png';
 import about from '../assets/about.png';
 import feature_1 from '../assets/feature_1.gif';
 import feature_2 from '../assets/feature_2.gif';
@@ -90,18 +89,16 @@ export default function Home() {
                             <div className='md:flex hidden flex-wrap items-center justify-center md:gap-12 gap-6 py-5 space-y-3'>
                                 <img src={b_1} alt='' className='w-40 filter grayscale'></img>
                                 <img src={b_2} alt='' className='w-12 filter grayscale'></img>
-                                {/* <img src={b_3} alt=''></img>
-                                <img src={b_4} alt=''></img> */}
+                                <img src={b_3} alt='' className='w-12 filter grayscale'></img>
                             </div>
 
-                            {/* <marquee className="md:hidden block py-5"> */}
-                                <div className='flex md:hidden items-center justify-center gap-8 py-5'>
-                                    <img src={b_1} alt='' className='w-28 filter grayscale'></img>
-                                    <img src={b_2} alt='' className='w-8 filter grayscale'></img>
-                                    {/* <img src={b_3} alt='' className='w-28'></img>
-                                    <img src={b_4} alt='' className='w-28'></img> */}
+                            <marquee className="md:hidden block py-5">
+                                <div className='flex items-center justify-center gap-10 py-5'>
+                                    <img src={b_1} alt='' className='w-32 filter grayscale'></img>
+                                    <img src={b_2} alt='' className='w-10 filter grayscale'></img>
+                                    <img src={b_3} alt='' className='w-10 filter grayscale'></img>
                                 </div>
-                            {/* </marquee> */}
+                            </marquee>
 
                             <div className='border-b line-gradient'>
 
