@@ -23,18 +23,16 @@ import side1 from '../assets/side1.png';
 import ricon1 from '../assets/ricon1.png';
 import ricon2 from '../assets/ricon2.png';
 import bg_top from '../assets/bg-right.svg';
-import Aos from 'aos';
+import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ProgressBar from './ProgreeBar';
 
 export default function Home() {
 
     useEffect(() => {
-        Aos.init({
-            duration: 800,
-            easing: 'ease',
-            delay: 350
+        AOS.init({
+            duration: 500,
         });
-        Aos.refresh();
     }, [])
 
     return (
@@ -398,7 +396,8 @@ export default function Home() {
                         </h3>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-center md:gap-28 gap-12'>
+                    <div className='flex items-center justify-center md:gap-6 gap-6'>
+
                         <div>
                             <img src={bar1} alt='' className=''></img>
                             <h4 data-aos='fade-up' className='md:text-3xl text-xl font-urbanist pt-3 font-semibold text-white-100 text-center'>
