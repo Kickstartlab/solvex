@@ -31,7 +31,7 @@ export default function Home() {
 
     useEffect(() => {
         AOS.init({
-            duration: 3000,
+            duration: 500,
         });
     }, [])
 
@@ -396,7 +396,7 @@ export default function Home() {
                         </h3>
                     </div>
 
-                    <div className='flex items-center justify-center md:gap-6 gap-6'>
+                    <div className='flex items-center justify-center md:gap-16 gap-6'>
 
                         <div>
                             <img src={bar1} alt='' className=''></img>
