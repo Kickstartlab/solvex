@@ -25,13 +25,13 @@ import ricon2 from '../assets/ricon2.png';
 import bg_top from '../assets/bg-right.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ProgressBar from './ProgreeBar';
+
 
 export default function Home() {
 
     useEffect(() => {
         AOS.init({
-            duration: 500,
+            duration: 3000,
         });
     }, [])
 
